@@ -1,0 +1,80 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 40px 30px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+#quote {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#author {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #4e54c8;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a3fbb;
+}
+
+#tweet {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #4e54c8;
+  font-size: 0.9rem;
+}
+
+#tweet:hover {
+  text-decoration: underline;
+}
+
+/* Fade-in animation */
+.fade {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
