@@ -18,6 +18,9 @@ A simple and aesthetic web app that displays random motivational or thoughtful q
 
 ## 📸 Screenshots
 
+![home task 2](https://github.com/user-attachments/assets/fafee6bb-5352-4cff-9255-cee801766dce)
+
+![animation task 2](https://github.com/user-attachments/assets/7ef4c237-5588-48bf-9f88-a1ea4904e191)
 
 ---
 
